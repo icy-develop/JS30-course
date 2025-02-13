@@ -1,0 +1,35 @@
+.key {
+    width: 75px;
+    height: 75px;
+    background: rgba(0,0,0,0.5);
+    border: 2px solid black;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    transition: all .07s ease-out;
+}
+kbd {
+    color: white;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url("./assets/bg.jpg") center center fixed;
+}
+.keyboard {
+    display: flex;
+    gap: 16px;
+}
+.sound {
+    color: darkorange;
+    font-family: sans-serif;
+}
+.playing {
+    transform: scale(1.2);
+    border-color: darkorange;
+    box-shadow: 0 0 10px darkorange;
+}
